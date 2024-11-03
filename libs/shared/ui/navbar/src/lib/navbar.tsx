@@ -21,7 +21,6 @@ export function Navbar() {
   const [anchorElNav, setAnchorElNav] = useState<null | HTMLElement>(null);
   const [anchorElUser, setAnchorElUser] = useState<null | HTMLElement>(null);
 
-
   const handleOpenNavMenu = (event: React.MouseEvent<HTMLElement>) => {
     setAnchorElNav(event.currentTarget);
   };
@@ -148,7 +147,9 @@ export function Navbar() {
             >
               {settings.map((setting) => (
                 <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                  <Typography sx={{ textAlign: 'center' }}>{setting}</Typography>
+                  <Typography sx={{ textAlign: 'center' }}>
+                    {setting}
+                  </Typography>
                 </MenuItem>
               ))}
             </Menu>
