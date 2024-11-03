@@ -1,10 +1,10 @@
-import styles from './home.module.scss';
+import { Navbar } from '@react-monorepo/navbar';
 
 export function Home() {
   return (
-    <div className={styles['container']}>
-      <h1>Welcome to Home!</h1>
-    </div>
+    <>
+      <Navbar />
+    </>
   );
 }
 

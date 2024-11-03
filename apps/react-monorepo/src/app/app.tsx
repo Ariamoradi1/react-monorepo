@@ -1,11 +1,11 @@
-import { Navbar } from '@react-monorepo/navbar';
-
+import { Route, Routes } from 'react-router-dom';
+import { Main } from '@react-monorepo/main';
 
 export function App() {
   return (
-    <div>
-      <Navbar />
-    </div>
+    <Routes>
+      <Route path="/" element={<Main />}></Route>
+    </Routes>
   );
 }
 
