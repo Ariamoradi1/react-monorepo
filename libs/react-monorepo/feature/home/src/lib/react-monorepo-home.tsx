@@ -1,6 +1,6 @@
 import { Navbar } from '@react-monorepo/navbar';
 
-export function Home() {
+export function ReactMonorepoHome() {
   return (
     <>
       <Navbar />
@@ -8,4 +8,4 @@ export function Home() {
   );
 }
 
-export default Home;
+export default ReactMonorepoHome;

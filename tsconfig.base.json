@@ -18,7 +18,10 @@
       "@react-monorepo/home": ["libs/react-monorepo/feature/home/src/index.ts"],
       "@react-monorepo/main": ["libs/react-monorepo/feature/main/src/index.ts"],
       "@react-monorepo/navbar": ["libs/shared/ui/navbar/src/index.ts"],
-      "@react-monorepo/users": ["libs/shared/ui/users/src/index.ts"]
+      "@react-monorepo/users": ["libs/shared/ui/users/src/index.ts"],
+      "@react-monorepo/users-data": [
+        "libs/react-monorepo/data/users/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]

@@ -1,10 +1,10 @@
 import { render } from '@testing-library/react';
 
-import Main from './main';
+import ReactMonorepoMain from './react-monorepo-main';
 
 describe('Main', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<Main />);
+    const { baseElement } = render(<ReactMonorepoMain />);
     expect(baseElement).toBeTruthy();
   });
 });

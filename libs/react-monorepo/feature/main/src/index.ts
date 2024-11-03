@@ -1,1 +1,1 @@
-export * from './lib/main';
+export * from './lib/react-monorepo-main';
