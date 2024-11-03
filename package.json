@@ -2,7 +2,13 @@
   "name": "@react-monorepo/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "nx": "nx",
+    "start:react-monorepo": "nx serve react-monorepo",
+    "build:react-monorepo": "nx build react-monorepo",
+    "prettier:check": "prettier --check .",
+    "prettier:write": "prettier --write ."
+  },
   "private": true,
   "dependencies": {
     "react": "18.3.1",
