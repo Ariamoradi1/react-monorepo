@@ -1,0 +1,9 @@
+{
+  "name": "navbar",
+  "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/shared/ui/navbar/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project navbar --web",
+  "targets": {}
+}

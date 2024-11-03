@@ -1,12 +1,10 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.scss';
+import { Navbar } from '@react-monorepo/navbar';
 
-import NxWelcome from './nx-welcome';
 
 export function App() {
   return (
     <div>
-      <NxWelcome title="react-monorepo" />
+      <Navbar />
     </div>
   );
 }
